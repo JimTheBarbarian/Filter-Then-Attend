@@ -1,0 +1,45 @@
+# Data directory (large datasets)
+data/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and outputs
+checkpoints/
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
