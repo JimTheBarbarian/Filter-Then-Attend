@@ -555,7 +555,7 @@ if __name__ == '__main__':
         device = torch.device('cuda', args.gpu) if torch.cuda.is_available() else torch.device('cpu')
     args.device = device
     
-    fix_seed = 20398 
+    fix_seed = 42 
     random.seed(fix_seed)
     torch.manual_seed(fix_seed)
     np.random.seed(fix_seed)
